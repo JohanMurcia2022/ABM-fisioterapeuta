@@ -1,0 +1,94 @@
+@import "./base.css";
+
+#app {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr; 
+   
+  }
+}
+
+.logo{
+  width: 150px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+#logo-dark{
+  width: 270px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+ 
+}
+
+.header-container{
+  background-color: white;
+}
+
+.info{
+  position: absolute;
+  top: 80px;
+  left: 940px;
+  right: 0px;
+}
+
+.btn{
+  display: block;
+  margin: 50px  auto;
+  width: fit-content;
+  border:  1px solid whitesmoke;
+  padding: 14px 30px;
+  border-radius: 10px;
+  color: #002171;
+  font-weight: bold;  
+  font-size: 20px;
+  text-decoration: none;
+  transition: background  2.7s;
+  position: absolute;
+  left: 35px;
+} 
+.btn:hover{
+  background: rgb(31, 31, 31);
+  color: #27B0FF;
+  left: 40px;
+  top:250px
+}
+
+
+
+
