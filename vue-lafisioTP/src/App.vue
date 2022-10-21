@@ -9,10 +9,10 @@
                     <ul>
                         <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="#services" class="nav-link">Servicios</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Citas</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">LaFisiotp</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Tarifas</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Contáctanos</a></li>
+                        <li class="nav-item"><a href="#dates" class="nav-link">Citas</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">LaFisiotp</a></li>
+                        <li class="nav-item"><a href="#rates" class="nav-link">Tarifas</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contáctanos</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Iniciar sesión</a></li>
                     </ul>
             </nav>
@@ -21,14 +21,15 @@
     <section class="home">
         <div class="main-section">
             <figure>
-            <img src="./components/icons/Imagenes/imagen-home.jpg" alt="home" id="home-img">
+            <img src="./components/icons/Imagenes/imagen-home.jpg" alt="home" id="home-img" class="home">
           </figure>
           <div class="info">
             <figure>
               <img src="./components/icons/Imagenes/Logo/Logo LAFISIOTP oscuro new 2.jpg" alt="logo oscuro" class="logo" id="logo-dark">
             </figure> 
-            <button class="btn">más información</button>
-
+            <button class="btn">
+                <a href="#services">más información</a>
+            </button>
           </div>
         </div>
     </section>
@@ -42,96 +43,138 @@
                 <div>
                     <img src="./components/icons/Imagenes/iconos rehabilitacion.jpg" alt="iconos" id="icons">
                     <h1>Rehabilitación Integral</h1>
-                    <a href="#">Tu recuperación es nuestro compromiso</a>
+                    <p>Tu recuperación es nuestro compromiso</p>
                 </div>
                 <div>
                     <img src="./components/icons/Imagenes/fisioterapia tratamiento.jpeg" alt="fisio" id="fisio">
                     <h1>Terapias de relajación</h1>
-                    <a href="#">Disminuye frecuencia cardiaca, presión arterial, mejora la calidad de sueño</a>
+                    <p>Disminuye frecuencia cardiaca, presión arterial, mejora la calidad de sueño</p>
                 </div>
                 <div>
                     <img src="./components/icons/Imagenes/Kinesiotape.jpg" alt="kinesiotape">
                     <h1>Vendaje de Kinesiotape</h1>
-                    <a href="#">Las tiras kinesiológicas alivian el dolor de las zonas afectadas por lesiones articulares o musculares, ofrecen mejor movilidad, disminuyen la inflamación y mejoran la circulación</a>
+                    <p>Las tiras kinesiológicas alivian el dolor de las zonas afectadas por lesiones articulares o musculares, ofrecen mejor movilidad, disminuyen la inflamación y mejoran la circulación</p>
                 </div>
                 <div>
                     <img src="./components/icons/Imagenes/acupuntura01.png" alt="acupuntura">
                     <h1>Acupuntura</h1>
-                    <a href="#"> la acupuntura tiene una gran capacidad de elevar la energía vital, fortalecer el sistema inmunológico, favorecer la circulación de la sangre y mejorar en un alto porcentaje el estado de salud en general.</a>
+                    <p> la acupuntura tiene una gran capacidad de elevar la energía vital, fortalecer el sistema inmunológico, favorecer la circulación de la sangre y mejorar en un alto porcentaje el estado de salud en general.</p>
                 </div>
                 <div>
+                    <img src="./components/icons/Imagenes/moxibustion.jfif" alt="moxibustion">
                     <h1>Moxibustión</h1>
-                    <a href="#">La moxibustión es un tratamiento terapéutico que proviene de la medicina tradicional China basada en la aplicación de calor en diferentes partes de la anatomía humana como método para estimular diferentes partes del cuerpo con el fin de curar enfermedades o dolencias.</a>
+                    <p>La moxibustión es un tratamiento terapéutico que proviene de la medicina tradicional China basada en la aplicación de calor en diferentes partes de la anatomía humana como método para estimular diferentes partes del cuerpo con el fin de curar enfermedades o dolencias.</p>
                 </div>
                 <div>
                     <img src="./components/icons/Imagenes/reflexologia.jpeg" alt="reflexologia">
                     <h1>Reflexología Podal</h1>
-                    <a href="#">Promueve la relajación y alivia el estrés. Reduce el dolor en general.</a>
+                    <p>Promueve la relajación y alivia el estrés. Reduce el dolor en general.</p>
                 </div>
                 <div>
+                    <img src="./components/icons/Imagenes/Auriculoterapia_semillas.jpg" alt="reflexologia auricular">
                     <h1>Reflexología Auricular</h1>
-                    <a href="#">La auriculoterapia es una técnica de medicina tradicional china que se deriva de la acupuntura, a través de la cual se estimulan puntos del pabellón externo de la oreja para diagnosticar y poder dar tratamiento a problemas de salud en otras zonas del cuerpo.</a>
+                    <p>La auriculoterapia es una técnica de medicina tradicional china que se deriva de la acupuntura, a través de la cual se estimulan puntos del pabellón externo de la oreja para diagnosticar y poder dar tratamiento a problemas de salud en otras zonas del cuerpo.</p>
                 </div>
-
+                <div>
+                    <img src="./components/icons/Imagenes/ventosa.jpg" alt="ventosas">
+                    <h1>Ventosas</h1>
+                    <p>Mejora circulación sanguínea y linfática</p>
+                </div>
+                <div>
+                    <img src="./components/icons/Imagenes/watsu.jfif" alt="watsu">
+                    <h1>Watsu</h1>
+                    <p>El watsu es una técnica que combina la relajación en el medio acuático con el masaje shiatsu</p>
+                </div>
            </div>
             </div>
     </section>
 
-  <!-- -----------Explora---------- -->
-<section class="details">
-    <div class="details-container">
-        <figure>
-            <img src="#" alt="">
-        </figure>
-        <h1></h1>
-        <p></p>
-    </div>
-</section>
-
 
     <!-- -----------Citas---------- -->
-    <section class="dates">
-        <div class="dates-container">
+    <section class="dates" id="dates">
+        <h1 class="subtitle">Agendar citas</h1>
+        <div class="booking">
+            <form class="content-left">
+                    <input type="text" id="name" name="name" class="item" placeholder="Nombre completo"><br>
+                    <input type="text" id="cedula" name="cedula" class="item" placeholder="cedula"><br> 
+                    <input type="date" id="cita" name="cita" class="item2"><br>
+                    
+             </form>
+             <div class="content-right">
+                <div class="btn1">8:00  am</div>
+                <div class="btn1">9:00   am</div>
+                <div class="btn1">10:00 am</div>
+                <div class="btn1">11:00 am</div>
+                <div class="btn1">2:00   pm</div>
+                <div class="btn1">3:00   pm</div>
+                <div class="btn1">4:00   pm</div>
+                <div class="btn1">5:00   pm</div>
 
-        </div>
+             </div>
+             <input type="submit" value="Seleccionar" class="btn2">   
+        </div>  
     </section>
     <!-- -----------LAFISIOTP-------- -->
-    <section class="aboutMe">
-        <div class="aboutMe-container">
+    <section class="aboutMe" id="about">
+        <h1 class="subtitle">About me</h1>
+        <div class="about">     
             <figure>
-                <img src="#" alt="LaFisio">
+                <img src="./components/icons/Imagenes/la fisio about me.jpg" alt="LaFisio" class="about-img">
             </figure>
+            <div class="about-content">
             <h2>IVONNE HERRERA BETANCOURTH</h2>
             <p>Fisioterapeuta</p>
             <p>Universidad Manuela Beltrán</p>
+            </div>
         </div>
     </section>
     <!-- -----------Tarifas---------- -->
-    <section class="rates">
+    <section class="rates" id="rates">
+        <h1 class="subtitle">Tarifa</h1>
         <div class="rates-container">
-            <h1>Tarifa primera cita</h1>
+            <h1>Valoración y primera terapia</h1>
             <p>$80.000</p>
             <p>Duración: 1 hora y 20 minutos</p>
+            <h1>Terapias de relajación</h1>
+            <p>2 horas $120,000 COP</p> 
+            <p>1 hora 30 min  $100,000 COP</p>
+            <p>1 hora $80,000 COP</p>
 
         </div>
     </section>
 
     <!-- -----------IniciarSesion---------- -->
-    <section class="session">
-        <div class="session-container">
-
-        </div>
+    <section class="session" >
     </section>
 
     <!-- -----------Contáctanos---------- -->
-    <section class="contact">
-        <div class="contact-container">
-
-        </div>
-    </section>
     <footer>
-        <p></p>
+        <section class="contact" id="contact">
+            <div class="contact-content">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contáctame</h1>
+                    <p>ivonneherrera007@hotmail.com</p>
+                    <p>Whatsapp 3128685538</p>
 
+                <div class="contact-right">
+                    <form name='submit-data'>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2">Enviar</button>
+                    </form>
+                     <span id="msg"></span>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+                    <p>Copyright  @LAFISIOTP</p>
+         </div>
+
+    </section>
+      
     </footer>
 
 </template>
@@ -139,7 +182,10 @@
 <script setup>
 
 
-</script>
+
+
+
+</script>   
 
 
 
