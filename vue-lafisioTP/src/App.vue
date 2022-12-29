@@ -1,4 +1,17 @@
 <template>
+        <head>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Servicios de rehabilitación integral y terapias de relajación, contáctanos">
+        <meta name="robots" content="index,follow">
+        <title>@LaFisiotp</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+  
+    </head>
+
+    
     <div class="grid-container">
       <header>
       <div class="header-container">
@@ -7,7 +20,6 @@
                         <img src="./components/icons/Imagenes/Logo/Logo LAFISIOTP claro.jpg" alt="Logo" class="logo">
                     </figure>
                     <ul>
-                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="#services" class="nav-link">Servicios</a></li>
                         <li class="nav-item"><a href="#dates" class="nav-link">Citas</a></li>
                         <li class="nav-item"><a href="#about" class="nav-link">LaFisiotp</a></li>
@@ -18,14 +30,14 @@
             </nav>
         </div>
     </header>
-    <section class="home">
+    <section class="section-home">
         <div class="main-section">
             <figure>
             <img src="./components/icons/Imagenes/imagen-home.jpg" alt="home" id="home-img" class="home">
           </figure>
           <div class="info">
             <figure>
-              <img src="./components/icons/Imagenes/Logo/Logo LAFISIOTP oscuro new 2.jpg" alt="logo oscuro" class="logo" id="logo-dark">
+              <img src="./components/icons/Imagenes/Logo/Logo LAFISIOTP claro.jpg" alt="logo oscuro" class="logo" id="logo-dark">
             </figure> 
             <button class="btn">
                 <a href="#services">más información</a>
@@ -122,7 +134,7 @@
                 <img src="./components/icons/Imagenes/la fisio about me.jpg" alt="LaFisio" class="about-img">
             </figure>
             <div class="about-content">
-            <h2>IVONNE HERRERA BETANCOURTH</h2>
+            <h3>IVONNE HERRERA BETANCOURTH</h3>
             <p>Fisioterapeuta</p>
             <p>Universidad Manuela Beltrán</p>
             </div>
@@ -151,26 +163,28 @@
     <footer>
         <section class="contact" id="contact">
             <div class="contact-content">
-            <div class="row">
-                <div class="contact-left">
-                    <h1>Contáctame</h1>
-                    <p>ivonneherrera007@hotmail.com</p>
-                    <p>Whatsapp 3128685538</p>
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contacto</h1>
+                        <p>&#128140; ivonneherrera007@hotmail.com</p>
+                        <p> &#128222; Whatsapp 3128685538</p>
 
-                <div class="contact-right">
-                    <form name='submit-data'>
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn2">Enviar</button>
-                    </form>
-                     <span id="msg"></span>
+
+                    <div class="contact-right">
+                        <form action="mailto:ivonneherrera007@hotmail.com" method="post" enctype="text/plain" name='submit-data'>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn2">Enviar</button>
+                        <button type="reset" class="btn2">Reset</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                    </div>
                 </div>
-                </div>
-            </div>
         </div>
         <div class="copyright">
-                    <p>Copyright  @LAFISIOTP</p>
+                    <p> &#127758; Copyright  @LAFISIOTP</p>
          </div>
 
     </section>
@@ -179,13 +193,9 @@
 
 </template>
 
-<script setup>
 
 
-
-
-
-</script>   
+<script  setup></script>   
 
 
 
